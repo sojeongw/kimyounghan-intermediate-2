@@ -56,5 +56,7 @@ public class Array {
         // 마지막에 추가할 경우: 기존 배열을 이동하지 않으므로 위치 찾는 데만 O(1)
         arr[arr.length-1] = 9;
         System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
+
+        // 배열의 한계: 처음부터 사이즈를 정해줘야 한다. 낭비가 될 수 있다.
     }
 }
